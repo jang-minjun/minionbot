@@ -20,7 +20,7 @@ async def on_message(message):
         await client.send_message(message.channel, "..안뇽")
     if message.content.startswith('미니모?'):
         await client.send_message(message.channel, "바냐냐 ㅎㅎ")
-    if message.content.startswith('바나나?'):
+    if message.content.startswith('바나나 먹자!'):
         await client.send_message(message.channel, "미니모!!")
     if message.content.startswith('출첵!'):
         await client.send_message(message.channel, "{@name}출첵 하셨습니다! :banana:")
